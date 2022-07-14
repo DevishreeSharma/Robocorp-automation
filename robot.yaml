@@ -2,13 +2,13 @@ tasks:
   #Run all tasks:
     #shell: python -m robot --report NONE --outputdir output --logtitle "Task log" tasks.robot
 
-  Callkeywordswithavaryingnumberofarguments:
+  numberofarguments:
     robotTaskName: Call keywords with a varying number of arguments
   
-  Callakeywordthatreturnsavalue:
+  returnsavalue:
     robotTaskName:  Call a keyword that returns a value
   
-  DoconditionalIFELSEIFELSEexecution:
+  IFELSEexecution:
     robotTaskName: Do conditional IF - ELSE IF - ELSE execution
 
   Loopalist:
@@ -17,7 +17,7 @@ tasks:
   Loopadictionary:
     robotTaskName: Loop a dictionary
   
-  Looparangefrom0toendindex:
+  toendindex:
     robotTaskName: Loop a range from 0 to end index
 
   
