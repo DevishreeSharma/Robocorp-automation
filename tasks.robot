@@ -110,9 +110,9 @@ Nest loops
     Log to console    ${alphabets}    # ['a', 'b', 'c']
     @{numbers}=    Create List    ${1}    ${2}    ${3}
     Log to console    ${numbers}    # [1, 2, 3]
-    FOR    ${alphabet}    IN    @{alphabets}
-        FOR    ${number}    IN    @{numbers}
-            Log to console    ${alphabet}${number}
+    FOR    ${number}    IN    @{numbers}
+        FOR    ${alphabet}    IN    @{alphabets}
+            Log to console    ${number}${alphabet}
             # a1, a2, a3, b1, b2, b3, c1, c2, c3
         END
     END
